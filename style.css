@@ -6,7 +6,7 @@ body {
 }
 
 .page-main {
-  width: max(350px, 100vw);
+  width: max(350px, 100%);
   transition: 0.5s;
   min-height: 100vh;
   display: flex;
@@ -50,7 +50,8 @@ body {
   }
 }
 .profile-image {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .about {
@@ -127,6 +128,4 @@ body {
   body {
     font-size: 20px;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

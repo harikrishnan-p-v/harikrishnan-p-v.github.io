@@ -10,7 +10,7 @@ body {
 }
 
 .page-main {
-  width: max(350px, 100vw);
+  width: max(350px, 100%);
   transition: 0.5s;
   min-height: 100vh;
   display: flex;
